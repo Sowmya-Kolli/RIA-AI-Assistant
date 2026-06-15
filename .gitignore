@@ -1,0 +1,23 @@
+.env
+.env.local
+
+node_modules/
+scripts/node_modules/
+
+cookies.json
+engine/cookies.json
+
+__pycache__/
+*.pyc
+
+venv/
+instance/
+
+# ignore generated audio
+*.wav
+*.mp3
+
+# keep required project audio
+!welcome.mp3
+!welcome_HI.mp3
+!static/ria_output.mp3

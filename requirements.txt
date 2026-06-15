@@ -1,0 +1,11 @@
+python-dotenv
+flask
+hugchat
+pyttsx3
+SpeechRecognition
+eel
+pyaudio
+pyautogui
+pywhatkit
+pvporcupine
+playsound
