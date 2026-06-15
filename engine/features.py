@@ -6,7 +6,7 @@ import struct
 import subprocess
 import time
 import webbrowser
-#from playsound import playsound
+from playsound import playsound
 import eel
 import pyaudio
 import pyautogui
@@ -23,9 +23,8 @@ cursor = con.cursor()
 @eel.expose
 def playAssistantSound():
     music_dir = "www\\assets\\audio\\start_sound.mp3"
-    #playsound(music_dir)
-    return music_dir
-
+    playsound(music_dir)
+    
     
 def openCommand(query):
     query = query.replace(ASSISTANT_NAME, "")

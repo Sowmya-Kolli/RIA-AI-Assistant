@@ -8,4 +8,4 @@ pyaudio
 pyautogui
 pywhatkit
 pvporcupine
-
+playsound==1.3.0
